@@ -1,5 +1,3 @@
-{
-    "buttons": {
         "actions": {
             "ban": {
                 "content": "message -+ban {user} {time} {reason}",
@@ -41,5 +39,3 @@
                 "title": "Выдать роль Лидера"
             }
         }
-    }
-}
