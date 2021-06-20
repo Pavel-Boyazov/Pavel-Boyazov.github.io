@@ -1,41 +1,43 @@
-        "actions": {
-            "ban": {
-                "content": "message -+ban {user} {time} {reason}",
-                "title": "Забанить пользователя",
-                "color": "red"
-            },
-            "mute": {
-                "content": "message !mute {user} {time} {reason}",
-                "title": "Замутить пользователя",
-                "color": "yellow"
-            },
-            "legendary": {
-                "content": "role 797534435474014288 {user}",
-                "title": "Отметить пользователя как нежелательного",
-                "color": "blue"
-            },
-            "unban": {
-                "content": "message -+unban {user} {reason}",
-                "title": "Разбанить пользователя",
-                "color": "green"
-            },
-            "unmute": {
-                "content": "message !unmute {user} {reason}",
-                "title": "Размутить пользователя",
-                "color": "green"
-            }
+{
+    "actions": {
+        "ban": {
+            "content": "message -+ban {user} {time} {reason}",
+            "title": "Забанить пользователя",
+            "color": "red"
         },
-        "help": {
-            "role": {
-                "content": "message Для получения роли организации в которой вы состоите, вам нужно сделать ник-нейм по форме: [Тэг организации] Nick_Name [Ранг/10], ник-нейм обязательно должен состоять только из стандартного шрифта, а также написан только на анг.языке. Пример: [Пра-во] Akaki_Barichi [1/10]\nДля смены ник-нейма используйте команду /nick Ваш ник-нейм, пример использования команды /nick [Пра-во] Akaki_Barichi [1/10]. После данных действий напишите слово роль в #general.",
-                "title": "Помощь с получением роли"
-            },
-            "deputy leader": {
-                "content": "role 493181560409948184 {user}",
-                "title": "Выдать роль Заместителя"
-            },
-            "leader": {
-                "content": "role 493181559881465857 {user}",
-                "title": "Выдать роль Лидера"
-            }
+        "mute": {
+            "content": "message !mute {user} {time} {reason}",
+            "title": "Замутить пользователя",
+            "color": "yellow"
+        },
+        "legendary": {
+            "content": "role 797534435474014288 {user}",
+            "title": "Отметить пользователя как нежелательного",
+            "color": "blue"
+        },
+        "unban": {
+            "content": "message -+unban {user} {reason}",
+            "title": "Разбанить пользователя",
+            "color": "green"
+        },
+        "unmute": {
+            "content": "message !unmute {user} {reason}",
+            "title": "Размутить пользователя",
+            "color": "green"
         }
+    },
+    "help": {
+        "role": {
+            "content": "message Для получения роли организации в которой вы состоите, вам нужно сделать ник-нейм по форме: [Тэг организации] Nick_Name [Ранг/10], ник-нейм обязательно должен состоять только из стандартного шрифта, а также написан только на анг.языке. Пример: [Пра-во] Akaki_Barichi [1/10]\nДля смены ник-нейма используйте команду /nick Ваш ник-нейм, пример использования команды /nick [Пра-во] Akaki_Barichi [1/10]. После данных действий напишите слово роль в #general.",
+            "title": "Помощь с получением роли"
+        },
+        "deputy leader": {
+            "content": "role 493181560409948184 {user}",
+            "title": "Выдать роль Заместителя"
+        },
+        "leader": {
+            "content": "role 493181559881465857 {user}",
+            "title": "Выдать роль Лидера"
+        }
+    }
+}
