@@ -3,27 +3,32 @@
         "ban": {
             "content": "message -+ban {user} {time} {reason}",
             "title": "Забанить пользователя",
-            "color": "red"
+            "color": "red",
+            "staff": 2
         },
         "mute": {
             "content": "message !mute {user} {time} {reason}",
             "title": "Замутить пользователя",
-            "color": "yellow"
+            "color": "yellow",
+            "staff": 1
         },
         "legendary": {
             "content": "role 797534435474014288 {user}",
             "title": "Отметить пользователя как нежелательного",
-            "color": "blue"
+            "color": "blue",
+            "staff": 2
         },
         "unban": {
             "content": "message -+unban {user} {reason}",
             "title": "Разбанить пользователя",
-            "color": "green"
+            "color": "green",
+            "staff": 2
         },
         "unmute": {
             "content": "message !unmute {user} {reason}",
             "title": "Размутить пользователя",
-            "color": "green"
+            "color": "green",
+            "staff": 1
         }
     },
     "help": {
