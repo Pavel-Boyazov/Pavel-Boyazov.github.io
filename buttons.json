@@ -1,34 +1,53 @@
 {
     "actions": {
         "ban": {
-            "content": "message -+ban {user} {time} {reason}",
+            "content": "message -+ban {user} {time}d {reason}",
             "title": "Забанить пользователя",
             "color": "red",
-            "staff": 2
-        },
-        "mute": {
-            "content": "message !mute {user} {time} {reason}",
-            "title": "Замутить пользователя",
-            "color": "yellow",
-            "staff": 1
-        },
-        "legendary": {
-            "content": "role 797534435474014288 {user}",
-            "title": "Отметить пользователя как нежелательного",
-            "color": "blue",
+            "form": true,
             "staff": 2
         },
         "unban": {
             "content": "message -+unban {user} {reason}",
             "title": "Разбанить пользователя",
             "color": "green",
+            "form": true,
             "staff": 2
+        },
+        "mute": {
+            "content": "message !mute {user} {time} {reason}",
+            "title": "Замутить пользователя",
+            "color": "yellow",
+            "form": true,
+            "staff": 1
         },
         "unmute": {
             "content": "message !unmute {user} {reason}",
             "title": "Размутить пользователя",
             "color": "green",
+            "form": true,
             "staff": 1
+        },
+        "kick": {
+            "content": "message !kick {user} {reason}",
+            "title": "Выгнать пользователя",
+            "color": "red",
+            "form": true,
+            "staff": 1
+        },
+        "legendary": {
+            "content": "role 797534435474014288 {user}",
+            "title": "Отметить пользователя как нежелательного",
+            "color": "blue",
+            "form": false,
+            "staff": 2
+        },
+        "transfer": {
+            "content": "message <@{user}>, Привет! На тебя поступила жалоба! {url} На ответ у тебя есть ровно 24 часа, иначе ты получишь наказание за отсутствие ответа! Часики говорят тик-так , тик-так , тик-так.",
+            "title": "Передать жалобу",
+            "color": "blue",
+            "form": false,
+            "staff": 3
         }
     },
     "help": {
