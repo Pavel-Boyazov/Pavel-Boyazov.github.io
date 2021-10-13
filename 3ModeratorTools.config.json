@@ -1,0 +1,125 @@
+{
+    "buttons": {
+        "ban": {
+            "target": "action",
+            "type": "message",
+            "content": "/ban {user} {time}d {reason}",
+            "title": "Забанить пользователя",
+            "color": "red",
+            "form": true,
+            "staff": 2
+        },
+        "unban": {
+            "target": "action",
+            "type": "message",
+            "content": "/unban {user} {reason}",
+            "title": "Разбанить пользователя",
+            "color": "green",
+            "form": true,
+            "staff": 2
+        },
+        "mute": {
+            "target": "action",
+            "type": "message",
+            "content": "/mute {user} {time} {reason}",
+            "title": "Замутить пользователя",
+            "color": "yellow",
+            "form": true,
+            "staff": 1
+        },
+        "unmute": {
+            "target": "action",
+            "type": "message",
+            "content": "/unmute {user} {reason}",
+            "title": "Размутить пользователя",
+            "color": "green",
+            "form": true,
+            "staff": 1
+        },
+        "kick": {
+            "target": "action",
+            "type": "message",
+            "content": "/kick {user} {reason}",
+            "title": "Выгнать пользователя",
+            "color": "red",
+            "form": true,
+            "staff": 1
+        },
+        "legendary": {
+            "target": "action",
+            "type": "message",
+            "content": "/legend {user} {time}d {reason}",
+            "title": "Отметить пользователя как нежелательного",
+            "color": "blue",
+            "form": true,
+            "staff": 2
+        },
+        "unlegendary": {
+            "target": "action",
+            "type": "message",
+            "content": "/unlegend {user} {reason}",
+            "title": "Снять с пользователя отметку нежелательного",
+            "color": "blue",
+            "form": true,
+            "staff": 2
+        },
+        "role": {
+            "target": "help",
+            "type": "message",
+            "content": "Для получения роли организации в которой вы состоите, вам нужно сделать ник-нейм по форме: [Тэг организации] Nick_Name [Ранг/10], ник-нейм обязательно должен состоять только из стандартного шрифта, а также написан только на анг.языке. Пример: [Пра-во] Akaki_Barichi [1/10]\nДля смены ник-нейма используйте команду /nick Ваш ник-нейм, пример использования команды /nick [Пра-во] Akaki_Barichi [1/10]. После данных действий напишите слово роль в #general.",
+            "title": "Помощь с получением роли",
+            "editable": true,
+            "staff": 1
+        },
+        "removeRole": {
+            "target": "help",
+            "type": "messages",
+            "title": "Массовое снятие ролей",
+            "placeholder": "снять роль у [id] [причина]",
+            "check": "снять роль у",
+            "staff": 1
+        },
+        "deputy leader": {
+            "target": "help",
+            "type": "role",
+            "content": "493181560409948184",
+            "title": "Выдать роль Заместителя",
+            "staff": 1
+        },
+        "leader": {
+            "target": "help",
+            "type": "role",
+            "content": "493181559881465857",
+            "title": "Выдать роль Лидера",
+            "staff": 1
+        },
+        "transfer": {
+            "target": "help",
+            "type": "message",
+            "content": "Привет! На тебя поступила жалоба! {url} На ответ у тебя есть ровно 24 часа, иначе будет бобо!",
+            "title": "Передать жалобу",
+            "editable": true,
+            "staff": 3
+        }
+    },
+    "folders": {
+        "roles": [
+            "role",
+            "deputy leader",
+            "leader",
+            "removeRole"
+        ]
+    },
+    "server": {
+        "number": 3,
+        "id": 355656045600964600,
+        "moderChat": 493181639011074050,
+        "formAcceptRoles": [
+            "375737638545784834",
+            "588061080413011968",
+            "855502391092445213",
+            "791977863242711050",
+            "493181553929617419"
+        ]
+    }
+}
