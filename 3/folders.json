@@ -1,8 +1,11 @@
 {
     "roles": [
         "role",
-        "deputy leader",
-        "leader",
         "removeRole"
+    ],
+    "tickets": [
+        "active",
+        "hold",
+        "close"
     ]
 }

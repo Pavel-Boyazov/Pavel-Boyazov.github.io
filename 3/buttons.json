@@ -23,7 +23,6 @@
         "content": "/mute {user} {time} {reason}",
         "title": "Замутить пользователя",
         "color": "yellow",
-        "form": true,
         "staff": 1
     },
     "unmute": {
@@ -32,7 +31,22 @@
         "content": "/unmute {user} {reason}",
         "title": "Размутить пользователя",
         "color": "green",
-        "form": true,
+        "staff": 1
+    },
+    "vmute": {
+        "target": "action",
+        "type": "message",
+        "content": "/vmute {user} {time} {reason}",
+        "title": "Замутить пользователя в голосовом канале",
+        "color": "yellow",
+        "staff": 1
+    },
+    "unvmute": {
+        "target": "action",
+        "type": "message",
+        "content": "/unvmute {user} {reason}",
+        "title": "Размутить пользователя в голосовом канале",
+        "color": "green",
         "staff": 1
     },
     "kick": {
@@ -41,8 +55,15 @@
         "content": "/kick {user} {reason}",
         "title": "Выгнать пользователя",
         "color": "red",
-        "form": true,
         "staff": 1
+    },
+    "transfer": {
+        "target": "help",
+        "type": "message",
+        "content": "Привет! На тебя поступила жалоба! {url} На ответ у тебя есть ровно 24 часа, иначе будет бобо!",
+        "title": "Передать жалобу",
+        "editable": true,
+        "staff": 3
     },
     "legendary": {
         "target": "action",
@@ -78,26 +99,28 @@
         "check": "снять роль у",
         "staff": 1
     },
-    "deputy leader": {
-        "target": "help",
-        "type": "role",
-        "content": "493181560409948184",
-        "title": "Выдать роль Заместителя",
-        "staff": 1
-    },
-    "leader": {
-        "target": "help",
-        "type": "role",
-        "content": "493181559881465857",
-        "title": "Выдать роль Лидера",
-        "staff": 1
-    },
-    "transfer": {
-        "target": "help",
+    "active": {
+        "target": "action",
         "type": "message",
-        "content": "Привет! На тебя поступила жалоба! {url} На ответ у тебя есть ровно 24 часа, иначе будет бобо!",
-        "title": "Передать жалобу",
-        "editable": true,
-        "staff": 3
+        "content": "/active",
+        "title": "Открыть тиккет",
+        "color": "green",
+        "staff": 2
+    },
+    "hold": {
+        "target": "action",
+        "type": "message",
+        "content": "/hold",
+        "title": "Перевести тиккет на рассмотрение",
+        "color": "yellow",
+        "staff": 2
+    },
+    "close": {
+        "target": "action",
+        "type": "message",
+        "content": "/close",
+        "title": "Закрыть тиккет",
+        "color": "red",
+        "staff": 2
     }
 }
