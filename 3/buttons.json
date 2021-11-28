@@ -104,6 +104,7 @@
         "type": "message",
         "content": "/active",
         "title": "Открыть тиккет",
+        "require": "ticket-",
         "color": "green",
         "staff": 2
     },
@@ -112,6 +113,7 @@
         "type": "message",
         "content": "/hold",
         "title": "Перевести тиккет на рассмотрение",
+        "require": "ticket-",
         "color": "yellow",
         "staff": 2
     },
@@ -120,6 +122,7 @@
         "type": "message",
         "content": "/close",
         "title": "Закрыть тиккет",
+        "require": "ticket-",
         "color": "red",
         "staff": 2
     }
